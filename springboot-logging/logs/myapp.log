@@ -1,0 +1,42 @@
+2025-06-23T17:45:42.532+05:30  INFO 3024 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : Starting LearningSpringbootLoggingApplication using Java 17.0.4.1 with PID 3024 (E:\SpringBoot\springboot logging\springboot-logging\target\classes started by KAJAL in E:\SpringBoot\springboot logging\springboot-logging)
+2025-06-23T17:45:42.535+05:30 DEBUG 3024 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-06-23T17:45:42.535+05:30  INFO 3024 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : No active profile set, falling back to 1 default profile: "default"
+2025-06-23T17:45:43.293+05:30  INFO 3024 --- [Learning springboot logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-23T17:45:43.332+05:30  INFO 3024 --- [Learning springboot logging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-23T17:45:43.333+05:30  INFO 3024 --- [Learning springboot logging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-23T17:45:43.386+05:30  INFO 3024 --- [Learning springboot logging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-23T17:45:43.386+05:30  INFO 3024 --- [Learning springboot logging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2025-06-23T17:45:43.718+05:30  INFO 3024 --- [Learning springboot logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-23T17:45:43.731+05:30  INFO 3024 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : Started LearningSpringbootLoggingApplication in 1.599 seconds (process running for 2.225)
+2025-06-23T17:46:28.726+05:30  INFO 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-23T17:46:28.727+05:30  INFO 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-23T17:46:28.728+05:30  INFO 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-23T17:46:28.762+05:30  INFO 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] c.s.logging.controller.HomeController    : This is api calling MayurKajal
+2025-06-23T17:46:28.763+05:30 DEBUG 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:46:28.764+05:30 ERROR 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:46:28.764+05:30  WARN 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:46:28.764+05:30 TRACE 3024 --- [Learning springboot logging] [http-nio-8080-exec-2] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:47:44.947+05:30  INFO 3024 --- [Learning springboot logging] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-23T17:47:44.949+05:30  INFO 3024 --- [Learning springboot logging] [RMI TCP Connection(4)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-23T17:47:44.978+05:30  INFO 3024 --- [Learning springboot logging] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-23T17:47:49.011+05:30  INFO 5624 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : Starting LearningSpringbootLoggingApplication using Java 17.0.4.1 with PID 5624 (E:\SpringBoot\springboot logging\springboot-logging\target\classes started by KAJAL in E:\SpringBoot\springboot logging\springboot-logging)
+2025-06-23T17:47:49.013+05:30 DEBUG 5624 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-06-23T17:47:49.014+05:30  INFO 5624 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : No active profile set, falling back to 1 default profile: "default"
+2025-06-23T17:47:49.611+05:30  INFO 5624 --- [Learning springboot logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-23T17:47:49.622+05:30  INFO 5624 --- [Learning springboot logging] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-23T17:47:49.622+05:30  INFO 5624 --- [Learning springboot logging] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-06-23T17:47:49.663+05:30  INFO 5624 --- [Learning springboot logging] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-23T17:47:49.663+05:30  INFO 5624 --- [Learning springboot logging] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2025-06-23T17:47:49.936+05:30  INFO 5624 --- [Learning springboot logging] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-23T17:47:49.943+05:30  INFO 5624 --- [Learning springboot logging] [main] s.l.LearningSpringbootLoggingApplication : Started LearningSpringbootLoggingApplication in 1.302 seconds (process running for 1.808)
+2025-06-23T17:47:58.282+05:30  INFO 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-23T17:47:58.282+05:30  INFO 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-23T17:47:58.283+05:30  INFO 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-06-23T17:47:58.314+05:30  INFO 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] c.s.logging.controller.HomeController    : This is api calling MayurKajal
+2025-06-23T17:47:58.315+05:30 DEBUG 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:47:58.316+05:30 ERROR 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:47:58.316+05:30  WARN 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:47:58.316+05:30 TRACE 5624 --- [Learning springboot logging] [http-nio-8080-exec-3] c.s.logging.controller.HomeController    : This is API caling MayurKajal
+2025-06-23T17:57:25.235+05:30  INFO 5624 --- [Learning springboot logging] [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-06-23T17:57:25.322+05:30  INFO 5624 --- [Learning springboot logging] [RMI TCP Connection(14)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-23T17:57:25.374+05:30  INFO 5624 --- [Learning springboot logging] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
